@@ -7,7 +7,7 @@ def load_json(file_path):
             data = json.load(file)
         return data
     except json.JSONDecodeError:
-        print("Invalid JSON file.")
+        print("zły plik json.")
         sys.exit(1)
 
 if __name__ == "__main__":
