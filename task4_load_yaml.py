@@ -11,6 +11,6 @@ def load_yaml(file_path):
         sys.exit(1)
 
 if __name__ == "__main__":
-    input_file = "path/to/input.yaml"
+    input_file = "C:\\Users\\Asus-pc\\Desktop\\Projekt\\input.yml"
     data = load_yaml(input_file)
     print(data)
