@@ -11,6 +11,6 @@ def load_json(file_path):
         sys.exit(1)
 
 if __name__ == "__main__":
-    input_file = "path/to/input.json"
+    input_file = "C:\\Users\\Asus-pc\\Desktop\\Projekt\\input.json"
     data = load_json(input_file)
     print(data)
